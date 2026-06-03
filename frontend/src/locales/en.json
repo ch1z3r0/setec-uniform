@@ -1,142 +1,145 @@
 {
-  "app": { "title": "Setec", "subtitle": "Graduation Uniform Lending System" },
-  "nav": {
-    "dashboard": "Dashboard",
-    "students":  "Students",
-    "staff":     "Staff",
-    "items":     "Items",
-    "borrowing": "Borrowing",
-    "returns":   "Returns",
-    "history":   "History"
-  },
-  "dashboard": {
-    "title":          "Dashboard",
-    "totalStudents":  "Total Students",
-    "totalBorrowed":  "Total Borrowed",
-    "totalReturned":  "Total Returned",
-    "totalActive":    "Currently Borrowed",
-    "totalOverdue":   "Overdue",
-    "totalAvailable": "Items Available",
-    "recentBorrows":  "Recent Borrows"
-  },
-  "students": {
-    "title":       "Manage Students",
-    "add":         "Add Student",
-    "edit":        "Edit Student",
-    "delete":      "Delete Student",
-    "studentId":   "Student ID",
-    "nameEn":      "Name (English)",
-    "nameKh":      "Name (Khmer)",
-    "phone":       "Phone",
-    "dob":         "Date of Birth",
-    "group":       "Group",
-    "promotion":   "Promotion",
-    "email":       "Email",
-    "password":    "Password",
-    "status":      "Status",
-    "search":      "Search students..."
-  },
-  "staff": {
-    "title":       "Manage Staff",
-    "add":         "Add Staff",
-    "edit":        "Edit Staff",
-    "delete":      "Delete Staff",
-    "username":    "Username",
-    "displayName": "Display Name",
-    "email":       "Email",
-    "phone":       "Phone",
-    "password":    "Password",
-    "status":      "Status",
-    "search":      "Search staff..."
-  },
-  "items": {
-    "title":     "Manage Items",
-    "add":       "Add Item",
-    "edit":      "Edit Item",
-    "delete":    "Delete Item",
-    "name":      "Item Name",
-    "quantity":  "Total Quantity",
-    "available": "Available",
-    "search":    "Search items..."
-  },
-  "borrowing": {
-    "title":         "Manage Borrowing",
-    "issue":         "Issue Uniform",
-    "selectStudent": "Select Student",
-    "selectStaff":   "Select Staff",
-    "selectItem":    "Select Item",
-    "notes":         "Notes",
-    "search":        "Search..."
-  },
-  "returns": {
-    "title":   "Process Returns",
-    "process": "Process Return",
-    "notes":   "Notes (Item condition)",
-    "search":  "Search by name or ID..."
-  },
-  "history": {
-    "title":  "Full History",
-    "search": "Search..."
-  },
-  "table": {
-    "no":          "#",
-    "studentId":   "Student ID",
-    "studentName": "Student Name",
-    "class":       "Group",
-    "staffName":   "Staff",
-    "item":        "Item",
-    "borrowedAt":  "Borrowed At",
-    "returnedAt":  "Returned At",
-    "status":      "Status",
-    "actions":     "Actions",
-    "notes":       "Notes",
-    "phone":       "Phone",
-    "role":        "Role",
-    "quantity":    "Quantity",
-    "available":   "Available"
-  },
-  "status": {
-    "borrowed": "Borrowed",
-    "returned": "Returned",
-    "overdue":  "Overdue",
-    "active":   "Active",
-    "inactive": "Inactive"
-  },
-  "actions": {
-    "add":         "Add",
-    "edit":        "Edit",
-    "delete":      "Delete",
-    "save":        "Save",
-    "cancel":      "Cancel",
-    "confirm":     "Confirm",
-    "return":      "Return",
-    "markOverdue": "Mark Overdue",
-    "close":       "Close",
-    "yes":         "Yes",
-    "no":          "No",
-    "logout":      "Logout"
-  },
-  "messages": {
-    "confirmDelete":  "Are you sure you want to delete this?",
-    "confirmReturn":  "Are you sure you want to process this return?",
-    "success":        "Operation successful",
-    "error":          "Something went wrong, please try again",
-    "loading":        "Loading...",
-    "noData":         "No data available",
-    "saved":          "Saved successfully",
-    "deleted":        "Deleted successfully",
-    "returned":       "Return processed successfully",
-    "outOfStock":     "Item is out of stock"
-  },
-  "auth": {
-    "login":             "Login",
-    "loginAsStaff":      "Login as Staff",
-    "loginAsStudent":    "Login as Student",
-    "identifier":        "Email or Username",
-    "identifierStudent": "Email or Student ID",
-    "password":          "Password",
-    "loginBtn":          "Sign In",
-    "invalidCreds":      "Invalid credentials"
-  },
-  "lang": { "toggle": "ភាសាខ្មែរ" }
+	"app": {
+		"title": "Setec Institute",
+		"subtitle": "Graduation Uniform Lending System"
+	},
+	"nav": {
+		"dashboard": "Dashboard",
+		"students": "Students",
+		"staff": "Staff",
+		"items": "Items",
+		"borrowing": "Borrowing",
+		"returns": "Returns",
+		"history": "History"
+	},
+	"dashboard": {
+		"title": "Dashboard",
+		"totalStudents": "Total Students",
+		"totalBorrowed": "Total Borrowed",
+		"totalReturned": "Total Returned",
+		"totalActive": "Currently Borrowed",
+		"totalOverdue": "Overdue",
+		"totalAvailable": "Items Available",
+		"recentBorrows": "Recent Borrows"
+	},
+	"students": {
+		"title": "Manage Students",
+		"add": "Add Student",
+		"edit": "Edit Student",
+		"delete": "Delete Student",
+		"studentId": "Student ID",
+		"nameEn": "Name (English)",
+		"nameKh": "Name (Khmer)",
+		"phone": "Phone",
+		"dob": "Date of Birth",
+		"group": "Group",
+		"promotion": "Promotion",
+		"email": "Email",
+		"password": "Password",
+		"status": "Status",
+		"search": "Search students..."
+	},
+	"staff": {
+		"title": "Manage Staff",
+		"add": "Add Staff",
+		"edit": "Edit Staff",
+		"delete": "Delete Staff",
+		"username": "Username",
+		"displayName": "Display Name",
+		"email": "Email",
+		"phone": "Phone",
+		"password": "Password",
+		"status": "Status",
+		"search": "Search staff..."
+	},
+	"items": {
+		"title": "Manage Items",
+		"add": "Add Item",
+		"edit": "Edit Item",
+		"delete": "Delete Item",
+		"name": "Item Name",
+		"quantity": "Total Quantity",
+		"available": "Available",
+		"search": "Search items..."
+	},
+	"borrowing": {
+		"title": "Manage Borrowing",
+		"issue": "Issue Uniform",
+		"selectStudent": "Select Student",
+		"selectStaff": "Select Staff",
+		"selectItem": "Select Item",
+		"notes": "Notes",
+		"search": "Search..."
+	},
+	"returns": {
+		"title": "Process Returns",
+		"process": "Process Return",
+		"notes": "Notes (Item condition)",
+		"search": "Search by name or ID..."
+	},
+	"history": {
+		"title": "Full History",
+		"search": "Search..."
+	},
+	"table": {
+		"no": "#",
+		"studentId": "Student ID",
+		"studentName": "Student Name",
+		"class": "Group",
+		"staffName": "Staff",
+		"item": "Item",
+		"borrowedAt": "Borrowed At",
+		"returnedAt": "Returned At",
+		"status": "Status",
+		"actions": "Actions",
+		"notes": "Notes",
+		"phone": "Phone",
+		"role": "Role",
+		"quantity": "Quantity",
+		"available": "Available"
+	},
+	"status": {
+		"borrowed": "Borrowed",
+		"returned": "Returned",
+		"overdue": "Overdue",
+		"active": "Active",
+		"inactive": "Inactive"
+	},
+	"actions": {
+		"add": "Add",
+		"edit": "Edit",
+		"delete": "Delete",
+		"save": "Save",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"return": "Return",
+		"markOverdue": "Mark Overdue",
+		"close": "Close",
+		"yes": "Yes",
+		"no": "No",
+		"logout": "Logout"
+	},
+	"messages": {
+		"confirmDelete": "Are you sure you want to delete this?",
+		"confirmReturn": "Are you sure you want to process this return?",
+		"success": "Operation successful",
+		"error": "Something went wrong, please try again",
+		"loading": "Loading...",
+		"noData": "No data available",
+		"saved": "Saved successfully",
+		"deleted": "Deleted successfully",
+		"returned": "Return processed successfully",
+		"outOfStock": "Item is out of stock"
+	},
+	"auth": {
+		"login": "Login",
+		"loginAsStaff": "Login as Staff",
+		"loginAsStudent": "Login as Student",
+		"identifier": "Email or Username",
+		"identifierStudent": "Email or Student ID",
+		"password": "Password",
+		"loginBtn": "Sign In",
+		"invalidCreds": "Invalid credentials"
+	},
+	"lang": { "toggle": "ភាសាខ្មែរ" }
 }
