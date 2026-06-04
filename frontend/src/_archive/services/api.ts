@@ -19,7 +19,7 @@ api.interceptors.response.use(
     if (err.response?.status === 401) {
       localStorage.removeItem("setec-token");
       localStorage.removeItem("setec-user");
-      window.location.href = "/login";
+      window.location.href = "/setec/login";
     }
     return Promise.reject(err);
   }
